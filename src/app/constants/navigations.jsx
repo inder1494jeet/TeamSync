@@ -1,0 +1,72 @@
+import { Building, ChartArea, Files, LayoutDashboard, List, PersonStanding, Presentation, PresentationIcon, Settings } from "lucide-react";
+
+
+export let employeenvigations=[
+    {
+        path:"/home",
+        title:"Dashboard",
+        Icon:<LayoutDashboard/>
+    },
+     {
+        path:"/home/myTask",
+        title:"My-Task",
+        Icon:<List/>
+    },
+     {
+        path:"/home/chat",
+        title:"Chats",
+        Icon:<ChartArea/>
+    },
+     {
+        path:"/home/attendance",
+        title:"Attendance",
+        Icon:<Presentation/>
+    },
+     {
+        path:"/home/profile",
+        title:"Profile",
+        Icon:<PresentationIcon/>
+    },
+     {
+        path:"/home/setting",
+        title:"Settings",
+        Icon:<Settings/>
+    }
+]
+export let adminnvigations=[
+    {
+        path:"/home",
+        title:"Dashboard",
+        Icon:<LayoutDashboard/>
+    },
+     {
+        path:"/home/task",
+        title:"Task",
+        Icon:<List/>
+    },
+     {
+        path:"/home/chat",
+        title:"Chats",
+        Icon:<ChartArea/>
+    },
+     {
+        path:"/home/employee",
+        title:"Employee",
+        Icon:<PersonStanding/>
+    },
+     {
+        path:"/home/document",
+        title:"Documents",
+        Icon:<Files/>
+    },
+      {
+        path:"/home/department",
+        title:"Departments",
+        Icon:<Building/>
+    },
+     {
+        path:"/home/setting",
+        title:"Settings",
+        Icon:<Settings/>
+    }
+]
